@@ -123,5 +123,5 @@ line vty 5 15
 end
 ```
 
-##Packet Tracer Bugs
+## Packet Tracer Bugs
 - Not seeing any security violations logged but the port security mechanism is working (e.g., the attacker machine cannot ping other devices as intended) but when you run the command, say for e.g., `show port-security interface fa0/1` the `Security Violation Count` remains `0`.
